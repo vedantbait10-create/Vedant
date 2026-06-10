@@ -239,6 +239,19 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;align-i
   .work-item.featured{grid-column:1}
   .modal-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:16px;text-align:center;padding:24px}
+
+  /* Modal mobile fixes */
+  .modal{padding:24px 18px;margin:16px}
+  .modal-title{font-size:22px}
+  .modal-video-wrap.landscape{aspect-ratio:16/9;width:100%}
+  .modal-video-wrap.portrait{aspect-ratio:9/16;max-width:100%;width:60%;margin:0 auto}
+  .modal-backdrop{padding:16px 8px}
+  .modal-block p{font-size:13px}
+  .work-meta{flex-direction:column;align-items:flex-start;gap:8px}
+  .work-header{flex-direction:column;align-items:flex-start;gap:20px}
+  .work-filter{flex-wrap:wrap}
+  .hero-title{font-size:clamp(38px,10vw,60px)}
+  .contact-heading{font-size:clamp(32px,8vw,56px)}
 }
 @media(prefers-reduced-motion:reduce){
   .hero-grain,.avail-dot,.scroll-chevron{animation:none}
